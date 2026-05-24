@@ -177,7 +177,8 @@ body {
 .hero img.hero-logo {
   height: 90px;
   width: auto;
-  margin-bottom: 24px;
+  display: block;
+  margin: 0 auto 24px;
 }
 
 .hero h1 {
