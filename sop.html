@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hall SOP | Salam EduMed</title>
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <script src="nav.js"></script>
+
+  <div class="page-header">
+    <div class="page-header-inner">
+      <div class="page-header-icon">🏛</div>
+      <div>
+        <h1>Hall SOP</h1>
+        <p>Prosedur Operasi Standard untuk penggunaan dewan dan kemudahan latihan Salam EduMed</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="info-box">
+      <div class="info-icon">⚠️</div>
+      <p>Semua peserta dan penganjur <strong>wajib</strong> mematuhi SOP berikut. Ketidakpatuhan boleh menyebabkan hak penggunaan kemudahan ditarik balik.</p>
+    </div>
+
+    <div class="sop-section open">
+      <button class="sop-toggle" onclick="toggleSop(this)">
+        <h3>📅 Tempahan & Kemasukan Dewan</h3>
+        <span class="chevron">▼</span>
+      </button>
+      <div class="sop-body">
+        <ul>
+          <li>Tempahan dewan mesti dibuat sekurang-kurangnya <strong>7 hari bekerja</strong> sebelum tarikh program.</li>
+          <li>Borang permohonan penggunaan dewan perlu diisi dan dihantar melalui portal rasmi.</li>
+          <li>Kelulusan tempahan akan dimaklumkan dalam masa 3 hari bekerja.</li>
+          <li>Sebarang pembatalan mesti diberitahu sekurang-kurangnya 48 jam sebelum tarikh program.</li>
+          <li>Pembatalan lewat tanpa sebab munasabah boleh menyebabkan blacklist tempahan.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="sop-section">
+      <button class="sop-toggle" onclick="toggleSop(this)">
+        <h3>👥 Peraturan Semasa Program</h3>
+        <span class="chevron">▼</span>
+      </button>
+      <div class="sop-body">
+        <ul>
+          <li>Semua peserta mesti <strong>mendaftar masuk</strong> sebelum program bermula.</li>
+          <li>Pakaian mestilah kemas dan sesuai — pakaian profesional atau uniform klinikal.</li>
+          <li>Telefon bimbit hendaklah ditetapkan pada mod senyap sepanjang sesi.</li>
+          <li>Dilarang membawa makanan atau minuman ke dalam dewan kecuali dengan kebenaran.</li>
+          <li>Peserta dilarang keluar masuk dewan semasa sesi sedang berjalan tanpa kebenaran fasilitator.</li>
+          <li>Gambar atau rakaman video hanya dibenarkan dengan kebenaran penganjur.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="sop-section">
+      <button class="sop-toggle" onclick="toggleSop(this)">
+        <h3>🔧 Penggunaan Peralatan & Kemudahan</h3>
+        <span class="chevron">▼</span>
+      </button>
+      <div class="sop-body">
+        <ul>
+          <li>Peralatan simulasi dan manikin mesti digunakan dengan berhati-hati dan mengikut arahan.</li>
+          <li>Sebarang kerosakan pada peralatan mestilah dilaporkan kepada staf serta-merta.</li>
+          <li>Penganjur bertanggungjawab memastikan semua peralatan dikembalikan ke tempat asal selepas program.</li>
+          <li>Peralatan peribadi pelajar adalah tanggungjawab pelajar sendiri — Salam EduMed tidak bertanggungjawab atas kehilangan.</li>
+          <li>Penggunaan projektor dan sistem audio perlu dipohon terlebih dahulu bersama borang tempahan.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="sop-section">
+      <button class="sop-toggle" onclick="toggleSop(this)">
+        <h3>🧹 Kebersihan & Pengurusan Ruang</h3>
+        <span class="chevron">▼</span>
+      </button>
+      <div class="sop-body">
+        <ul>
+          <li>Penganjur bertanggungjawab memastikan dewan <strong>bersih dan kemas</strong> selepas program.</li>
+          <li>Semua kerusi dan meja mesti dikembalikan ke susunan asal sebelum meninggalkan dewan.</li>
+          <li>Sampah dan sisa mestilah dibuang di tempat yang disediakan.</li>
+          <li>Pemeriksaan dewan akan dijalankan oleh staf sebelum dan selepas penggunaan.</li>
+          <li>Deposit akan ditolak sekiranya dewan didapati tidak bersih atau rosak.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="sop-section">
+      <button class="sop-toggle" onclick="toggleSop(this)">
+        <h3>🚨 Prosedur Kecemasan</h3>
+        <span class="chevron">▼</span>
+      </button>
+      <div class="sop-body">
+        <ul>
+          <li>Ketahui lokasi <strong>alat pemadam api</strong> dan <strong>AED</strong> berhampiran dewan.</li>
+          <li>Dalam keadaan kecemasan, hubungi staf Salam EduMed atau talian kecemasan hospital serta-merta.</li>
+          <li>Semua peserta mesti mengikuti arahan pemimpin kecemasan semasa situasi bahaya.</li>
+          <li>Laluan kecemasan mesti sentiasa bebas dan tidak disekat pada setiap masa.</li>
+          <li>Fasilitator program bertanggungjawab memastikan peserta tahu prosedur kecemasan sebelum sesi bermula.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div style="margin-top: 32px; padding: 24px; background: var(--primary-xlight); border-radius: var(--radius-lg); text-align: center;">
+      <p style="color: var(--gray); margin-bottom: 16px; font-size: 0.95rem;">Ada pertanyaan tentang SOP atau ingin tempah dewan?</p>
+      <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+        <a href="request.html" class="btn btn-primary">📨 Buat Permohonan</a>
+        <a href="contact.html" class="btn btn-outline">📞 Hubungi Kami</a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>© 2025 <span>Salam EduMed</span>. All rights reserved. | salamedumed.com</p>
+  </footer>
+
+  <script>
+    function toggleSop(btn) {
+      btn.closest('.sop-section').classList.toggle('open');
+    }
+  </script>
+</body>
+</html>
